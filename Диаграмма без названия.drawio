@@ -1,9 +1,231 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.9">
   <diagram name="Страница — 1" id="jtearE2Z6RXFPdjBOp8D">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-1" value="web-1. dara1.&amp;nbsp;&lt;div&gt;Сервер приложении&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-2" target="t7q7yaM7Ao2E_KM4jruC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-2" value="БД" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="740" y="380" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-4" value="Роль Родитель. Выбрал регистрацию через FaceID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="80" as="sourcePoint" />
+            <mxPoint x="300" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-7" value="iin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="45" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-8" value="Face Photo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="85" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-9" value="По форме отправляем на сервер ИИН родителя и фото лица" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="79.5" as="sourcePoint" />
+            <mxPoint x="550" y="79.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="649.5" y="130" as="sourcePoint" />
+            <mxPoint x="650" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="201" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-15" value="Нет. Отправляем ошибку,&lt;div&gt;&amp;nbsp;чтобы ввели заново&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t7q7yaM7Ao2E_KM4jruC-14">
+          <mxGeometry x="0.4059" y="-1" relative="1" as="geometry">
+            <mxPoint x="268" y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-17" value="Да. далее" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t7q7yaM7Ao2E_KM4jruC-16">
+          <mxGeometry x="-0.3292" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-12" value="данные корректны?" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="575" y="280" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-13" value="Проверяем корректность ИИН из ГБД.&amp;nbsp;&lt;div&gt;Проверяем тип файла и размер.&lt;/div&gt;&lt;div&gt;Проверяем на антивирус&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="190" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-18" target="t7q7yaM7Ao2E_KM4jruC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-23" value="Да. Зарегистрирован.&amp;nbsp;&lt;div&gt;Сообщаем и показываем&amp;nbsp;&lt;/div&gt;&lt;div&gt;родителю&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;форму&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;авторизации&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t7q7yaM7Ao2E_KM4jruC-21">
+          <mxGeometry x="-0.6256" y="1" relative="1" as="geometry">
+            <mxPoint x="41" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-18" target="t7q7yaM7Ao2E_KM4jruC-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-25" value="Нет. далее&lt;div&gt;отправляем запрос по ИИН&amp;nbsp;&lt;/div&gt;&lt;div&gt;для получения&amp;nbsp;&lt;/div&gt;&lt;div&gt;фото из документа&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t7q7yaM7Ao2E_KM4jruC-24">
+          <mxGeometry x="0.0208" relative="1" as="geometry">
+            <mxPoint x="33" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-18" value="Ищем в БД ИИН.&amp;nbsp;&lt;div&gt;Зарегистрирован?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="460" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-18" target="t7q7yaM7Ao2E_KM4jruC-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="480" />
+              <mxPoint x="710" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-26" target="t7q7yaM7Ao2E_KM4jruC-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-26" value="Модуль интеграции" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-13" target="t7q7yaM7Ao2E_KM4jruC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-34" target="t7q7yaM7Ao2E_KM4jruC-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-34" value="Микросервис Aidan.&amp;nbsp;&lt;div&gt;(Go, Python, Java, C++,...)&lt;/div&gt;&lt;div&gt;Виртуальный сервер web-2 без интернета.&amp;nbsp;&lt;/div&gt;&lt;div&gt;10.10.1.12&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="830" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-35" target="t7q7yaM7Ao2E_KM4jruC-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-35" target="t7q7yaM7Ao2E_KM4jruC-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-35" value="Регистрируем родителя?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="700" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-37" target="t7q7yaM7Ao2E_KM4jruC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="570" />
+              <mxPoint x="130" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-41" value="Нет. Сообщаем родителю чтобы&amp;nbsp;&lt;div&gt;регистрировался через ЭЦП&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t7q7yaM7Ao2E_KM4jruC-40">
+          <mxGeometry x="-0.375" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-37" target="t7q7yaM7Ao2E_KM4jruC-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-45" value="Да. Отправляем исходное фото&amp;nbsp;&lt;div&gt;из БД и фото&amp;nbsp;&lt;/div&gt;&lt;div&gt;из формы родителя&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t7q7yaM7Ao2E_KM4jruC-43">
+          <mxGeometry x="-0.227" relative="1" as="geometry">
+            <mxPoint x="86" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-37" value="Есть ли фото?&lt;div&gt;Гражданин РК?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="615" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-59" value="Нет. Фейк" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t7q7yaM7Ao2E_KM4jruC-58">
+          <mxGeometry x="-0.5415" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-46" value="Живое фото?&amp;nbsp;&lt;div&gt;То есть не&amp;nbsp;&lt;/div&gt;&lt;div&gt;фотографирует ли фото родителя кто то?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="592.5" y="930" width="185" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7" y="810" as="sourcePoint" />
+            <mxPoint x="827" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-50" target="t7q7yaM7Ao2E_KM4jruC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-57" value="Сообщаем родителю&lt;div&gt;&amp;nbsp;причину&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t7q7yaM7Ao2E_KM4jruC-56">
+          <mxGeometry x="-0.7408" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-50" value="Нет" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="732.5" width="64" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-52" value="Да" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528.5" y="732.5" width="64" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-60" target="t7q7yaM7Ao2E_KM4jruC-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-67" value="Да. Далее" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t7q7yaM7Ao2E_KM4jruC-66">
+          <mxGeometry x="-0.7406" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-60" value="Сравниваем исходное фото с фото родителя" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="940" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-46" target="t7q7yaM7Ao2E_KM4jruC-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="1090" />
+              <mxPoint x="185" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-63" value="Да. Далее" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t7q7yaM7Ao2E_KM4jruC-62">
+          <mxGeometry x="-0.2286" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7q7yaM7Ao2E_KM4jruC-60" target="t7q7yaM7Ao2E_KM4jruC-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="54" y="1005" />
+              <mxPoint x="54" y="890" />
+              <mxPoint x="317" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-65" value="Нет.&amp;nbsp;&lt;div&gt;Лица не совпадают&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t7q7yaM7Ao2E_KM4jruC-64">
+          <mxGeometry x="-0.7476" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-68" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;web-1. Dara1&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="757.5" width="180" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t7q7yaM7Ao2E_KM4jruC-69" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;web-2. Aidan Service&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="820" width="260" height="32.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
