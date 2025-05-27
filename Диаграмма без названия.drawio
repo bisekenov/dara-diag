@@ -52,10 +52,10 @@
         <mxCell id="hdnEngGZ3pcy6_s1rteW-24" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;bd&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;192.168.30.11&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="361" y="625" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="hdnEngGZ3pcy6_s1rteW-25" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;log&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;192.168.30.12&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="hdnEngGZ3pcy6_s1rteW-25" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;graylog&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;192.168.30.55&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="443" y="625" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="hdnEngGZ3pcy6_s1rteW-26" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;mnt&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;192.168.30.13&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="hdnEngGZ3pcy6_s1rteW-26" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;zabbix&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;192.168.30.50&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="524.79" y="625" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hdnEngGZ3pcy6_s1rteW-27" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#5B97FF;" parent="1" source="hdnEngGZ3pcy6_s1rteW-1" target="hdnEngGZ3pcy6_s1rteW-3" edge="1">
